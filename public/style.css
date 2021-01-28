@@ -1,0 +1,278 @@
+.navbar{
+    background-color: blue !important;
+}
+
+.nav-link:hover{
+    color: rgb(0, 0, 0) !important;
+}
+.nav-link:active{
+    color: rgb(255, 0, 0) !important;
+}
+.nav{
+    display: flex !important;
+    background-color: rgb(221, 230, 233) !important;
+    box-shadow: 2px 4px 5px rgb(189, 189, 189) !important; 
+    font-weight: bolder !important;
+    text-align: center;
+    text-shadow: 2px 4px 5px rgb(82, 53, 53);
+    color: blue !important;
+    width: 1430px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 3px;
+}
+
+ @media screen and (max-width: 1200px) {
+    .nav {
+        width: 100%;
+    }
+  } 
+.container{
+    color: rgb(59, 51, 51);
+    background-color: white;    
+} 
+.ba{
+    background-color: rgb(255, 250, 250);
+}
+h2 {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    color:  rgb(59, 51, 51);
+    border-right: 2px dashed rgb(0, 0, 0);
+} 
+p{
+    margin-top: 30px;
+    font-size: 10px;
+}
+h3{
+    color: blue;
+}
+
+
+.userpage{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+    /* align-content: center; */
+    justify-content: center;
+    margin-top: 200px;
+    
+
+}
+@media screen and (max-width: 768px) { 
+    .userpage {
+        width: 100%; 
+       /* display: inline-block; */
+        /* float: none;  */
+    } 
+    }
+  }
+form{
+    width: 700px;
+    padding: 15px;
+    margin: 10px auto; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center;    */
+}
+fieldset{
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(147, 209, 233);
+    padding: 0px;
+}
+legend{
+    color: rgb(255, 255, 255);
+    background-color: rgb(147, 209, 233);
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+div.center{
+    text-align: center;
+}
+input:hover{
+    border-color: rgb(211, 212, 216);
+    background-color: rgb(149, 153, 161);
+}
+input{
+    color: darkblue;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+input.email{
+    background-image: url(https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/mail-512.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px  ;
+}
+input.password{
+    background-image: url(https://icon-library.com/images/password-icon-png/password-icon-png-22.jpg);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px  ;
+}
+ button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+label{
+    font-weight: bolder;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.usera{
+    color: blue;
+} 
+.usergo{
+    color: black;
+} 
+.btn-secondary{
+    display: flex;
+    justify-content: center !important;
+}
+
+.nav-link{
+    font-weight: bold !important;
+    color: rgb(247, 245, 255) !important;
+}
+.dropdown-item:hover{
+    color: rgb(250, 253, 65) !important;
+}
+.dropdown-item{
+    font-weight: bold !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(247, 255, 245) !important;
+}
+
+
+.carousel-caption{
+    color: blue !important;
+}
+.fa-car,.fa-user-circle-o{
+    font-size: 32px !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 10px;
+}
+.card1,.card2,.card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    margin-top: 10px;
+}
+
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3 {
+        width: 100%;
+    }
+  }
+
+  
+.newArrivals{
+    margin-top: 50px;
+}
+.cardt{
+    border: 1px solid rgb(199, 199, 199) ;
+    background-color: rgb(168, 181, 182);
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.cardf{
+    border: 1px solid rgb(199, 199, 199) ;
+    background-color: rgb(168, 181, 182);
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.card{
+    width: 160px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.card-text{
+    font-weight: bolder;
+    color: red;
+}
+.btn-primary{
+    width: 100%;
+    background-color: blue;
+}
+.bt{
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 27%;
+}
+.bd{
+    background-color: rgb(168, 181, 182);
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin: 20px;
+}
+.heading > h1{
+    text-shadow: 2px 2px 4px black;
+}
+
+h6{
+    font-weight: bold !important;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    }
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: blue;
+}
+.sample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+    color: rgb(255, 255, 255) !important;
+    
+}
+.fa-facebook-square,.fa-instagram,.fa-twitter-square,.fa-google-plus-square{
+    font-size: 32px !important;
+}
+
+.Ali{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255) !important;
+}
